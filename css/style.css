@@ -1,0 +1,361 @@
+body {
+    width: 100%;
+    height: 783px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.modul {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    width: 1062px;
+    height: 52px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 230px;
+    padding-right: 225px;
+    padding: 50px 225px 0px 230px;
+}
+
+.header-top {
+    width: 1062px;
+    height: 52px;
+}
+
+.container-clearfix {
+    width: 1062px;
+    height: 52px;
+}
+
+.header-logo {
+    width: 1062px;
+    height: 52px;
+    float: left;
+}
+
+.header-logo ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+a.header-logo-link {
+    float: left;
+    width: 55px;
+    height: 44px;
+    padding-right: 13px;
+}
+
+a.img1 {
+    background: url(img/logo.png);
+    float: left;
+    width: 55px;
+    height: 44px;
+    padding-right: 13px;
+}
+
+a.img1:hover {
+    float: left;
+    width: 55px;
+    height: 44px;
+    padding-right: 13px;
+    background: url(img/logo-orange.png);
+}
+
+a.header-logo-text {
+    width: 200px;
+    height: 26px;
+    font-family: Verdana;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 25px;
+    letter-spacing: 0.02px;
+    margin: 0px;
+    text-align: left;
+    float: left;
+}
+
+
+.header-logo-text:hover {
+    width: 200px;
+    height: 26px;
+    font-family: Verdana;
+    font-size: 29px;
+    font-weight: bold;
+    color: #f26522;
+    text-decoration: none;
+    display: list-item;
+    list-style-type: none;
+    line-height: 25px;
+    letter-spacing: 0.02px;
+    margin: 0px;
+}
+
+.header-logo-text span {
+    width: 200px;
+    height: 26px;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: list-item;
+    list-style-type: none;
+    letter-spacing: 0.05px;
+    line-height: 27px;
+    margin: 0px;
+}
+
+.header-logo-email {
+    width: 243px;
+    height: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    display: list-item;
+    list-style-type: none;
+    float: right;
+    line-height: 23px;
+}
+
+.header-logo-email span {
+    float: right;
+}
+
+.header-logo-email:hover {
+    width: 243px;
+    height: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    display: list-item;
+    list-style-type: none;
+    float: right;
+    line-height: 23px;
+    color: #f26522;
+}
+
+.header-logo-email span:hover {
+    float: right;
+    color: #f26522;
+}
+
+
+.section {
+    width: 1519px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0px;
+    display: table;
+}
+
+.container {
+    height: 555px;
+    width: 1130px;
+    margin-left: 200px;
+    margin-right: 204px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+.container-link {
+    height: 555px;
+    width: 1130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: Regular;
+    color: white;
+    text-decoration: none;
+}
+
+.container-ul {
+    height: 555px;
+    width: 1130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.container-link li {
+    height: 290px;
+    width: 320px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    text-indent: 10px;
+    list-style-type: none;
+}
+
+
+.flex-box img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.link {
+    height: 290px;
+    width: 320px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    text-indent: 10px;
+    list-style-type: none;
+}
+
+
+.link p {
+    margin-top: 25px;
+}
+
+.link p:hover {
+    color: #f26522;
+}
+
+.link img { 
+    width: 313px;
+    height: 203px;
+    padding: 0px;
+    padding-bottom: 0px;
+    border-left: 0px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 0px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, 0%,  rgba(0, 0, 0, 0.616) 50%);
+    -webkit-border-image: -webkit-linear-gradient(top, 0%,  rgba(0, 0, 0, 0.616)50%);
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.616) 50%,  rgba(0, 0, 0, 0.616) 75%);
+    border-image-slice: 1;
+    box-shadow: 3px 3px 3px 5px  rgba(0, 0, 0, 0.616);
+}
+
+
+.hover-details {
+    width: 313px;
+    height: 63px;
+    background: #f26522;
+}
+
+.hover-text {
+    width: 313px;
+    height: 63px;
+    background: #f26522;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+    position: absolute;
+}
+
+.hover-text-left {
+    text-align: left;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+    position: absolute;
+}
+
+.hover-text-details span {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+    position: absolute;
+}
+
+.hover-text-right {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+    position: absolute;
+}
+
+
+.details-hover-content {
+    height: 60px;
+    width: 310px;
+    background-color: #f26522;
+    float: left;
+    text-align: left;
+    color: #eee;
+    font: 20px;
+    display: list-item;
+    text-decoration: none;
+}
+
+.tour-details-left {
+    float: left;
+    font-size: 10px;
+    font-family: Verdana;
+}
+
+.tour-details-left span {
+    float: left;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.tour-details-right {
+    float: right;
+    font-size: 14px;
+}
+
+.tour-details-right p {
+    float: right;
+    size: 2px;
+}
+
+.footer {
+    width: 348px;
+    height: 15px;
+    float: center;
+    margin-left: 580px;
+    margin-top: 42px;
+    margin-bottom: 15px;
+}
+
+.copyright-text {
+    width: 348px;
+    height: 15px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: white;
+}
+
+
